@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int x,y;
+    cout<<"Enter the number of following you have!!:"<<endl;
+    cin>>x;
+    cout<<"Enter the number of followers you have:"<<endl;
+    cin>>y;
+    if(y==10*x)
+    {
+        cout<<"ACCOUNT IS SPAMED:"<<endl;
+        
+    }
+    else
+    {
+        cout<<"ACCOUNT IS NOT SPAMED:"<<endl;
+    }
+
+    return 0;
+}

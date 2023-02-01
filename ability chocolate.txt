@@ -1,0 +1,42 @@
+#include <iostream>
+
+
+using namespace std;
+ int check(int a,int b)
+ int t;
+
+{ 
+	cout<<"Enter the test cases"<<endl;
+	cin>>t;
+    if(a>b)
+    {
+        cout<<a<<" is costlier than second chocolate"<<endl;
+    }
+    else if(b>a)
+    {
+        cout<<a<<"is cheaper than first chocolate"<<endl;
+    }
+    else
+    if(a==b)
+    {
+        cout<<"both are equal"<<endl;
+    }
+    return 0;
+}
+
+int main()
+{
+    int c,d;
+    
+    for(int i=3;i>0;i--)
+    {
+        cout<<"enter cost of first chocolate"<<endl;
+        cin>>c;
+        cout<<"enter cost of second chocolate"<<endl;
+        cin>>d;
+       check(c,d);
+    }
+    return 0;
+    
+}
+
